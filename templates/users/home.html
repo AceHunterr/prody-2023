@@ -8,7 +8,6 @@ Home
 {% include "users/opening.html" %}  <!--hehe-->
 {% include "users/glitch_text_style.html" %}
 
-
 {% include 'includes/navbar.html' %}
 {% if user.is_authenticated %}
 
@@ -52,6 +51,8 @@ Home
   </div>
 </div>
 {% endif %}
+
+{% include "includes/carousel.html" %}
 
 {% include "includes/socials.html" %}
 {% endblock %}
